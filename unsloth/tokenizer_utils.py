@@ -957,7 +957,7 @@ def patch_sft_trainer_tokenizer():
         "if \"CUDA_VISIBLE_DEVICES\" in os.environ:\n"\
         "    index_for_cuda = os.environ[\"CUDA_VISIBLE_DEVICES\"]\n"\
         "    if \",\" in index_for_cuda:\n"\
-        "        raise RuntimeError(\"Unsloth currently does not support multi GPU setups - but we are working on it!\")\n"\
+        "        raise RuntimeError(\"0Unsloth currently does not support multi GPU setups - but we are working on it!\")\n"\
         "    index_for_cuda = int(index_for_cuda)\n"\
         "a = np.array([0,])\n"\
         "try:\n"\
